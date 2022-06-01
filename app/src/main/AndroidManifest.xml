@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ksebcomplaintmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".w_meter_reading"
+            android:exported="false" />
+        <activity android:name=".Registration" />
+        <activity android:name=".custom_view_connection" />
+        <activity android:name=".view_connection" />
+        <activity android:name=".new_connection" />
+        <activity android:name=".update_pic" />
+        <activity android:name=".view_history" />
+        <activity android:name=".view_alert" />
+        <activity android:name=".calculator" />
+        <activity android:name=".alert_msg" />
+        <activity
+            android:name=".u_view_complaint"
+            android:label="@string/title_activity_u_view_complaint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".send_complaint" />
+        <activity android:name=".custom_view_reply" />
+        <activity android:name=".custom_view_users" />
+        <activity android:name=".view_users" />
+        <activity android:name=".send_reply" />
+        <activity android:name=".custom_view_complaints" />
+        <activity android:name=".view_complaints" />
+        <activity android:name=".custom_view_notification" />
+        <activity android:name=".view_notification" />
+        <activity android:name=".view_user_profile" />
+        <activity android:name=".view_worker_profile" />
+        <activity android:name=".Upipay"/>
+
+        <uses-library android:name="org.apache.http.legacy" />
+
+        <activity android:name=".login" />
+        <activity
+            android:name=".user_home"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".worker_home"
+            android:label="@string/title_activity_worker_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

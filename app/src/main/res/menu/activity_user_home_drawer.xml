@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Apply for new connection" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Connection status" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/complaint"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/complaint"
+            android:title="Alerts" />
+        <item
+            android:id="@+id/nav_hist"
+            android:icon="@drawable/complaint"
+            android:title="Reading History" />
+        <item
+            android:id="@+id/nav_calc"
+            android:icon="@drawable/complaint"
+            android:title="Calculator" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/lg"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

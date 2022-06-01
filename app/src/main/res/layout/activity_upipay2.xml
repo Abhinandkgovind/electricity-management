@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="-30dp"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+
+            android:text="We now support all most every UPI Payments Methods"
+
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:drawablePadding="8dp"
+        android:text="name"
+        android:textSize="18sp"
+
+        />
+
+    <EditText
+        android:id="@+id/upi_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+
+
+        android:layout_marginRight="20dp"
+        android:drawablePadding="8dp"
+        android:hint="upi_id"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+
+        android:textSize="18sp"
+
+
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/amount_et"
+        android:inputType="numberDecimal"
+        android:text="amount"/>
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+        android:hint="What's this for ?"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="150dp"
+
+        android:layout_height="60dp"
+
+        android:id="@+id/send"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Pay Now"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>
